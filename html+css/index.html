@@ -17,7 +17,7 @@
             <div class="border p-4">
                 <div class="title d-flex justify-content-between p-2">
                     <h2>Task List</h2>
-                    <button class="btn btn-primary rounded-4">+ Add Task</button>
+                    <button class="btn btn-primary rounded-4" data-bs-toggle="modal" data-bs-target="#addTaskForm">+ Add Task</button>
                 </div>
                 <div id="list" class="p-2">
                     <ul class="cards ps-0">
@@ -45,7 +45,6 @@
                 </div>
             </div>
 
-            <div class="border p-4 d-none">
                 <div class="modal" id="addTaskForm" tabindex="-1">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
@@ -75,7 +74,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
     </main>
 
     <script src="../bootstrap-5.0.2/bootstrap-5.0.2/dist/js/bootstrap.js"></script>
